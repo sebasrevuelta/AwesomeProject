@@ -1,0 +1,15 @@
+# This is a Gradle generated file for dependency locking.
+# Manual edits can break the build and are not advised.
+# This file is expected to be part of source control.
+org.apache.tomcat.embed:tomcat-embed-core:9.0.74
+org.apache.tomcat:tomcat-annotations-api:9.0.74
+org.apache.tomcat:tomcat-api:9.0.74
+org.apache.tomcat:tomcat-coyote:9.0.74
+org.apache.tomcat:tomcat-jni:9.0.74
+org.apache.tomcat:tomcat-util:9.0.74
+org.apache.tomcat:tomcat-util-scan:9.0.74
+org.apache.tomcat:tomcat-websocket:9.0.74
+org.apache.juli:tomcat-juli:9.0.74
+org.apache.logging.log4j:log4j-api:2.12.2=compileClasspath,runtimeClasspath,testCompileClasspath,testRuntimeClasspath
+org.apache.logging.log4j:log4j-core:2.12.2=compileClasspath,runtimeClasspath,testCompileClasspath,testRuntimeClasspath
+empty=annotationProcessor,testAnnotationProcessor
