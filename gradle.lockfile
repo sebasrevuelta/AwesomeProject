@@ -1,8 +1,6 @@
-# This is a Gradle lockfile to lock dependency versions and ensure reproducible builds.
-# Locked configurations:
-# - compileClasspath
-# - runtimeClasspath
-
+# This is a Gradle generated file for dependency locking.
+# Manual edits can break the build and are not advised.
+# This file is expected to be part of source control.
 org.apache.tomcat.embed:tomcat-embed-core:9.0.74
 org.apache.tomcat:tomcat-annotations-api:9.0.74
 org.apache.tomcat:tomcat-api:9.0.74
@@ -12,7 +10,9 @@ org.apache.tomcat:tomcat-util:9.0.74
 org.apache.tomcat:tomcat-util-scan:9.0.74
 org.apache.tomcat:tomcat-websocket:9.0.74
 org.apache.juli:tomcat-juli:9.0.74
-
+org.apache.logging.log4j:log4j-api:2.12.2=compileClasspath,runtimeClasspath,testCompileClasspath,testRuntimeClasspath
+org.apache.logging.log4j:log4j-core:2.12.2=compileClasspath,runtimeClasspath,testCompileClasspath,testRuntimeClasspath
+empty=annotationProcessor,testAnnotationProcessor
 # transitive dependencies
 org.apache.tomcat.embed:tomcat-embed-el:9.0.74
 org.apache.tomcat.embed:tomcat-embed-websocket:9.0.74
