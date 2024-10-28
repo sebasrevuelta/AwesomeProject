@@ -13,5 +13,3 @@ org.apache.juli:tomcat-juli:9.0.74
 org.apache.logging.log4j:log4j-api:2.12.2=compileClasspath,runtimeClasspath,testCompileClasspath,testRuntimeClasspath
 org.apache.logging.log4j:log4j-core:2.12.2=compileClasspath,runtimeClasspath,testCompileClasspath,testRuntimeClasspath
 empty=annotationProcessor,testAnnotationProcessor
-org.apache.tomcat.embed:tomcat-embed-el:9.0.74
-org.apache.tomcat.embed:tomcat-embed-websocket:9.0.74
